@@ -27,8 +27,6 @@ class Settings:
             missing.append("SUPABASE_KEY")
         if not cls.DISCORD_WEBHOOK_URL:
             missing.append("DISCORD_WEBHOOK_URL")
-        if not cls.GEMINI_API_KEY:
-            missing.append("GEMINI_API_KEY")
         if not cls.GOOGLE_SHEET_ID:
             missing.append("GOOGLE_SHEET_ID")
         if not cls.GOOGLE_CREDENTIALS_JSON and not os.path.exists(cls.GOOGLE_CREDENTIALS_PATH):
