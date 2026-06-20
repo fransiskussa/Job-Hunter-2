@@ -4,7 +4,7 @@ on:
   schedule:
     # 18:02 WIB (11:02 UTC) untuk testing
     - cron: '0 * * * *'
-  workflow_dispatch: # Memungkinkan trigger manual
+  workflow_dispatch: # Memungkinkan trigger manual (Forced update)
 
 jobs:
   run-pipeline:
